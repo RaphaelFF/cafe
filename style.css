@@ -36,4 +36,5 @@ header{
     display: flex;
     gap: 10px;
     color: #fff;
+    font-size: 30px;
 }
