@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.fundo{
+    background-image: url(img/home-img.jpeg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo img{
+    font-size: 100px;
+}
+
+.links{
+    display: flex;
+    gap: 20px;
+}
+
+.links a{
+    color: #fff;
+}
+
+.icones{
+    display: flex;
+    gap: 10px;
+    color: #fff;
+}
