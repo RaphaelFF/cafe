@@ -6,6 +6,9 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+body{
+    background-color: black;
+}
 
 .fundo{
     background-image: url(img/home-img.jpeg);
@@ -79,4 +82,35 @@ button{
 button:hover{
     background-color: #fcfcfc;
     color: black;
+}
+
+/***************section 1 - sobre***************/
+
+.section-1{
+    padding: 5rem;
+}
+.section-1 h1{
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+}
+
+h1 span{
+    color: #d3b26a;
+}
+.sobre-texto{
+    display: flex;
+    background-color: #313131;
+    align-items: center;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    margin-top: 2rem;
+}
+
+.sobre-texto img{
+max-width: 100%;
+width: 100%;
+height: auto;
 }
