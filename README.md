@@ -2,18 +2,20 @@
   💻<br>Café  - Vida
 </h1>
 
-![Resultado final do projeto](potter.png)
-<h4 align="center"><a href="https://benevolent-frangipane-abe99f.netlify.app/">Clique para visitar o projeto</a></h4>
+![Resultado final do projeto](template.jpeg)
+<h4 align="center"><a href="https://cafe-vida.netlify.app/">Clique para visitar o projeto</a></h4>
 
 
 ## 📚 Seções
 
-O site é composto por cinco seções:
+O site é composto por seis seções:
 
-- **Contato:** Ilustrativo;
+- **Inicio:** Ilustrativo;
 - **Sobre:** Ilustrativo;;
-- **Suporte:** Ilustrativo;;
-- **Assistir:** Ilustrativo;;
+- **Menu:** Ilustrativo;;
+- **Produtos:** Ilustrativo;;
+- **Contato:** Ilustrativo;;
+- **Blog:** Ilustrativo;;
 
 
 ---
