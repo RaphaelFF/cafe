@@ -7,7 +7,7 @@
     text-decoration: none;
 }
 body{
-    background-color: black;
+ background-color: black;
 }
 
 .fundo{
@@ -132,4 +132,35 @@ width: 30rem;
     color: #fcfcfc;
     letter-spacing: 3px;
     line-height: 30px;
+}
+
+/*********** section-2***********/
+.section-2 h1{
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+}
+
+.conteudo-cards-1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #fff;
+    padding-top: 5rem;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.card-1 {
+    border: solid;
+}
+
+.conteudo-cards-2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #fff;
+    padding-top: 5rem;
+    text-align: center;
 }
