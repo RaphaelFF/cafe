@@ -11,7 +11,7 @@ body{
 }
 
 .fundo{
-    background-image: url(img/home-img.jpeg);
+    background-image: url(/assets/img/home-img.jpeg);
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
