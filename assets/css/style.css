@@ -135,7 +135,7 @@ width: 30rem;
 }
 
 /*********** section-2***********/
-.section-2 h1{
+#section-2 h1{
     align-items: center;
     text-align: center;
     color: #fff;
