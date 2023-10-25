@@ -144,7 +144,8 @@ width: 30rem;
 
 .conteudo-cards-1{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 1%;
     align-items: center;
     color: #fff;
     padding-top: 5rem;
@@ -152,15 +153,31 @@ width: 30rem;
     flex-wrap: wrap;
 }
 
-.card-1 {
-    border: solid;
+.card:hover{
+    transform: scale(1.05);
+    transition-duration: 0.5s all;
+    background-color: #1f1a0f;
+}
+
+.conteudo-cards-1 span, .conteudo-cards-2 span{
+    font-size: 10px;
+    text-decoration: line-through;
+}
+
+.card{
+    border-style: dotted ;
+    border-color: #fff #fff #e6ab2e #e6ab2e;
+    border-width: 1px;
+    padding: 50px;
 }
 
 .conteudo-cards-2{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 1%;
     align-items: center;
     color: #fff;
     padding-top: 5rem;
     text-align: center;
 }
+
