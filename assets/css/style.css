@@ -55,7 +55,6 @@ header{
     display: flex;
     flex-direction: column;
     margin-left: 5%;
-    margin-top: 10%;
 }
 
 .titulo h1{
@@ -94,6 +93,7 @@ button:hover{
     text-align: center;
     color: #fff;
     font-size: 50px;
+    padding-bottom: 3rem;
 }
 
 h1 span{
@@ -106,7 +106,6 @@ h1 span{
     max-width: 100%;
     width: 100%;
     height: auto;
-    margin-top: 2rem;
 }
 
 .sobre-texto img{
@@ -135,11 +134,15 @@ width: 30rem;
 }
 
 /*********** section-2***********/
+#section-2{
+    padding: 5rem;
+}
 #section-2 h1{
     align-items: center;
     text-align: center;
     color: #fff;
     font-size: 50px;
+    padding-bottom: 3rem;
 }
 
 .conteudo-cards-1{
@@ -148,7 +151,6 @@ width: 30rem;
     gap: 1%;
     align-items: center;
     color: #fff;
-    padding-top: 5rem;
     text-align: center;
     flex-wrap: wrap;
 }
@@ -181,3 +183,115 @@ width: 30rem;
     text-align: center;
 }
 
+/********************section-3*******************/
+.section-3{
+    padding: 5rem;
+}
+
+.section-3 h1{
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    padding-bottom: 3rem;
+}
+
+.conteudi-card2{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.cards{
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    margin: 20px;
+    border: solid 1px #fff;
+}
+
+.icones-card{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.icones-card a{
+    color: #fff;
+    border: solid 1px #fff;
+    font-size: 30px;
+    padding: 5px;
+}
+
+.img-card img{
+    width: 100px;
+}
+
+.title-card h3{
+    color: #fff;
+    font-size: 12px;
+}
+
+.estrelas a{ 
+    color: #f5b120;
+}
+
+.preco{
+    color: #fff;
+    font-size: 10px;
+}
+
+.preco span{
+    color: #e6ab2e;
+    text-decoration: line-through #fff
+    ;
+}
+
+/********************section-4*******************/
+.section-4{
+    padding: 5rem;
+}
+
+.section-4 h1{
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    padding-bottom: 3rem;
+}
+
+.conteudo-card4{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.card4{
+    width: 20%;
+    border: solid 1px #fff;
+    margin: 20px;
+}
+
+.title-aspas img{
+    width: 50px;
+    padding-top: 50px;
+}
+
+.texto-p{
+    color: #fff;
+    margin: 25px;
+    font-size: 13px;
+    
+}
+.foto-perfil img{
+    width: 80px;
+    padding-bottom: 20px;
+}
+
+.foto-perfil h4 {
+    color: #fff;
+}
+.estrelas {
+    padding-bottom: 40px;
+}
