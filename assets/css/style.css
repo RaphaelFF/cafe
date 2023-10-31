@@ -295,3 +295,57 @@ width: 30rem;
 .estrelas {
     padding-bottom: 40px;
 }
+/********************section-5*******************/
+
+.section-5{
+    padding: 5rem;
+}
+.section-5 h1{
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    padding-bottom: 3rem;
+}
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.map{
+    width: 300px;
+    height: 200px;
+}
+
+.formulario form{
+    background-color: #a7a7e0;
+    width: 40rem;
+    height: 200px;
+    align-items: center;
+}
+
+.formulario h3{
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+}
+
+.icone-f{
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 5px;
+    height: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.icone-f a{
+    background-color: #fff;
+    padding: 10px;
+}
+
+.icone-f input{
+    width: 100%;
+    border: none;
+}
