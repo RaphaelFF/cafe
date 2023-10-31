@@ -311,24 +311,25 @@ width: 30rem;
 .formulario{
     display: flex;
     justify-content: center;
-    align-items: center;
+    
 }
 .map{
-    width: 300px;
-    height: 200px;
+width: 300px;
+height: auto;
 }
 
 .formulario form{
-    background-color: #a7a7e0;
+    background-color: #191924;
     width: 40rem;
-    height: 200px;
+    height: auto;
     align-items: center;
 }
 
 .formulario h3{
     text-align: center;
     color: #fff;
-    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 2px;
 }
 
 .icone-f{
@@ -341,11 +342,68 @@ width: 30rem;
     padding-right: 40px;
 }
 .icone-f a{
-    background-color: #fff;
+    background-color: #000;
     padding: 10px;
+    color: #fff;
+    padding-right: 20px;
 }
 
 .icone-f input{
     width: 100%;
     border: none;
+    background-color: #000;
+}
+
+button{
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+/********************section-5*******************/
+
+.section-6{
+    padding: 5rem;
+}
+
+.section-6 h1{
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    padding-bottom: 3rem;
+}
+
+.conteudo-card6{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+}
+
+.card6{
+    border: solid 1px #fff;
+    width: 300px;
+}
+
+.imagem img{
+    width: 100%;
+}
+
+.texto6{
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 20px;
+}
+
+.texto6 span{
+    color: #e6ab2e;
+    font-size: 10px;
+}
+
+p{
+    font-size: 11px;
+}
+button{
+    width: 80px;
 }
